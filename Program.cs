@@ -12,10 +12,11 @@ namespace Test
         {
             int a = 5;
             int b = 353;
+            int c = 454;
 
-            int summ = a + b;
+            int summ = a + b + c;
             Console.WriteLine(summ);
-            Console.WriteLine(a);
+            Console.WriteLine(a); // test for git
         }
     }
 }
